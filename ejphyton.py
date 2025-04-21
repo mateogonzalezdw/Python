@@ -77,4 +77,22 @@ def EJ9():
     
 #EJ9()
 
+def EJ10():
+    exP = float(input("Nota de exámenes parciales: "))
+    TP = float(input("Nota de trabajos prácticos: "))
+    exI =  float(input("Nota de exámen integrador: "))
+
+    print("La nota final es",(exP*0.3+TP*0.2+exI*0.5))
+
+#EJ10()
+
+def EJ11():
+    salario = 5500
+    Avendidos = int(input("Cantidad de autos vendidos: "))
+    Avalor = int(input("Valor del auto: "))
+
+    print("El salario total es: ",salario+Avendidos*200+Avalor*0.05)
+
+#EJ11()
+
   
