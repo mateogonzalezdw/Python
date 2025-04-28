@@ -24,7 +24,7 @@ def EJ3():
 
 def EJ4():
     lado = float(input("Ingrese el lado del cuadrado con decimales: "))
-    print("La superficie del cuadrado es de",lado*4,"cm2")
+    print("La superficie del cuadrado es de",lado*2,"cm2")
 
 #EJ4()
 
