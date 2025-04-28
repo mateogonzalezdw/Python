@@ -46,14 +46,11 @@ def EJ6():
 #EJ6()
 
 def EJ7():
-    numero1 = float(input("Ingrese el primer número: "))
-    numero2 = float(input("Ingrese el segundo número: "))
-    numero3 = float(input("Ingrese el tercer número: "))
-    numero4 = float(input("Ingrese el cuarto número: "))
-    numero5 = float(input("Ingrese el quinto número: "))
-    numero6 = float(input("Ingrese el sexto número: "))
+    arr = []
+    for i in range(6):
+     arr.append(float(input("Ingrese un número: ")))
 
-    print("El promedio es",(numero1+numero2+numero3+numero4+numero5+numero6)/6)
+    print("El promedio es",(sum(arr))/6)
 
 #EJ7()
 
