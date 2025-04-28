@@ -84,12 +84,12 @@ def EJ10():
 #EJ10()
 
 def EJ11():
+    Avalor = []
     salario = 5500
     Avendidos = int(input("Cantidad de autos vendidos: "))
-    Avalor = int(input("Valor del auto: "))
+    for i in range(Avendidos):
+        Avalor.append(float(input("Ingrese el valor del auto: ")))
 
-    print("El salario total es: ",salario+Avendidos*200+Avalor*0.05)
+    print("El salario total es: ",salario+Avendidos*200+sum(Avalor)*0.05)
 
-#EJ11()
-
-  
+#EJ11() 
